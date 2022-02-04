@@ -1,4 +1,6 @@
-const carrusel = document.querySelector('.carrusel__items');
+import carruselDos from "./carrusel.js";
+
+const carrusel = document.querySelector('.carrusel__js');
 
 let interval;
 let step = 1;
@@ -27,3 +29,4 @@ carrusel.addEventListener('mouseover', stop, false);
 carrusel.addEventListener('mouseout', start, false);
 
 start();
+carruselDos();
